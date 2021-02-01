@@ -1,0 +1,23 @@
+.header-main .navbar-default {
+    background-color: #ffffff;
+    border: none;
+    height: 60px;
+}
+.header-main .navbar-default .navbar-collapse.in{
+    background-color: #e7e7e7;
+}
+.header-main .navbar-brand{
+    cursor: pointer;
+}
+.header-main .navbar-brand>img{
+    height: 30px;
+}
+.header-main .navbar-default .navbar-nav>li>a{
+    font-family: "HelveticaNeueMedium";
+    color: #707070;
+    font-size: 14px;
+    cursor: pointer;
+}
+.header-main .navbar-default .navbar-nav>li>a>img{
+   margin-right: 10px;
+}

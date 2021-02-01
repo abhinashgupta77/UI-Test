@@ -1,0 +1,45 @@
+<section class="register-main">
+  <div class="container">
+    <h4>Registration Form</h4>
+
+    <form (ngSubmit)="onSubmit()">
+      <div class="input-group-main">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text"  class="form-control" name="firstName" [(ngModel)]="firstName" />
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" class="form-control" name="lastName" [(ngModel)]="lastName"/>
+        </div>
+        <div class="form-group">
+          <label>Experience</label>
+          <input type="text" class="form-control" name="experience" [(ngModel)]="experience"/>
+        </div>
+        <div class="form-group">
+          <label>Current Company</label>
+          <input type="text" class="form-control" name="currentCompany" [(ngModel)]="currentCompany" />
+        </div>
+        <div class="form-group">
+          <label>Qualification</label>
+          <input type="text" class="form-control" name="qualification" [(ngModel)]="qualification" />
+        </div>
+        <div class="form-group">
+          <label>Year Passed</label>
+          <input type="text" class="form-control" name="yearPassed" [(ngModel)]="yearPassed" />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" name="email" [(ngModel)]="email" />
+        </div>
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="phone" class="form-control" name="phone" [(ngModel)]="phone" />
+        </div>
+      </div>
+      <div class="submit-btn-block">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </form>
+  </div>
+</section>
